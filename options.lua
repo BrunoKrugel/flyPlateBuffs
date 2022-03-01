@@ -236,7 +236,7 @@ fPB.MainOptionTable = {
 					desc = L["Show self spells x% bigger."],
 					min = 0,
 					max = 1,
-					step = 0.01, --CHRIS
+					step = 0.1,
 					isPercent = true,
 				},
 				cropTexture = {
@@ -1140,3 +1140,4 @@ function fPB.BuildSpellList()
 		}
 	end
 end
+
